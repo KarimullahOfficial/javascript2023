@@ -45,3 +45,16 @@ console.log(hobbies);
 console.log(result);
 console.log(hobbies.indexOf("reading"));
 console.log(hobbies.includes("coding"));
+let nam = "karimullah";
+
+console.log("original string =", nam);
+console.log("extract string", nam.slice(0, 3));
+
+let color = "gray, white, black";
+//string to array
+console.log(color.split("."));
+console.log(color, typeof color);
+
+//number
+let mynum = 34;
+console.log(mynum, typeof mynum);

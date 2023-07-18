@@ -60,3 +60,26 @@ let mynum = 34;
 console.log(mynum, typeof mynum);
 //Arithmetic operator
 //addition multiplication subtraction division modulus increment decrement
+
+let increment = mynum + 1;
+console.log(increment);
+console.log("divide", mynum / 2);
+console.log("multiple", mynum * 2);
+console.log("subtract", mynum - 2);
+console.log("modulus", mynum % 2);
+
+//loose equality == VS strict Equality ===
+const n = 33;
+console.log(n == "33");
+console.log(n === 33);
+
+let nub = "34";
+console.log(nub, typeof nub);
+let re = String(nub);
+console.log(re, typeof re);
+let str = "karim";
+console.log(str, typeof str);
+let ras = Number(str);
+console.log(ras, typeof ras);
+var user1 = parseInt(prompt("enter a number"));
+console.log(user1);

@@ -24,7 +24,7 @@ console.log(c);
 //symbol define
 //object
 console.log("hello");
-const firstname = "karim";
+const firstname = "KARIM";
 const lastname = "ullah";
 console.log(firstname, lastname);
 //Method 1 concat
@@ -35,3 +35,13 @@ const fullname = `Full Name ${firstname} ${lastname}`;
 console.log(fullname);
 
 // string tolowercase
+
+console.log(firstname.toLowerCase());
+console.log(lastname.toUpperCase());
+console.log(lastname.indexOf("a"));
+let hobbies = "   coding reading running  ";
+let result = hobbies.trim();
+console.log(hobbies);
+console.log(result);
+console.log(hobbies.indexOf("reading"));
+console.log(hobbies.includes("coding"));

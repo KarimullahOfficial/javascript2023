@@ -58,3 +58,5 @@ console.log(color, typeof color);
 //number
 let mynum = 34;
 console.log(mynum, typeof mynum);
+//Arithmetic operator
+//addition multiplication subtraction division modulus increment decrement

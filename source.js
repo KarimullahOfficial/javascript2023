@@ -82,4 +82,17 @@ console.log(str, typeof str);
 let ras = Number(str);
 console.log(ras, typeof ras);
 var user1 = parseInt(prompt("enter a number"));
-console.log(user1);
+console.log("your number", user1);
+//array collection of data
+let aray = ["karim", "bs", "it", "math"];
+console.log(aray);
+console.log(aray.join("-"));
+let a1 = [1, 2, 3];
+let a2 = [4, 5, 6];
+let a3 = a1.join(a2);
+console.log(a3);
+console.log(aray.indexOf("bs"));
+console.log(a1.concat(a2));
+let str1 = "karim";
+let str2 = "mullah";
+console.log(str1.concat(str2));

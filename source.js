@@ -96,3 +96,5 @@ console.log(a1.concat(a2));
 let str1 = "karim";
 let str2 = "mullah";
 console.log(str1.concat(str2));
+console.log(str1.length);
+console.log(aray.length);

@@ -21,5 +21,17 @@ console.log(c);
 //boolen true/ false
 //null special  value absence
 //Undefine declare but  not initial
-//symbol define 
+//symbol define
 //object
+console.log("hello");
+const firstname = "karim";
+const lastname = "ullah";
+console.log(firstname, lastname);
+//Method 1 concat
+console.log(firstname + lastname);
+//method2 uisng template literls
+
+const fullname = `Full Name ${firstname} ${lastname}`;
+console.log(fullname);
+
+// string tolowercase

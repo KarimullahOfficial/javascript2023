@@ -140,12 +140,23 @@ do {
 
 //condition statment
 
-let age=20;
-if(age>20)
-{
-    console.log("you are eligible")
+let age = 20;
+if (age > 20) {
+  console.log("you are eligible");
+} else {
+  console.log("you are not eligible");
 }
-else
-{
-    console.log('you are not eligible')
+//Break and continue
+
+for (let i = 0; i <= 10; i++) {
+  if (i % 2 == 0) {
+    continue;
+  }
+  console.log(i);
+}
+
+//logical opertor
+let pass = "qwerty@";
+if (pass.length > 5 && pass.includes("@")) {
+  console.log("password is strong");
 }

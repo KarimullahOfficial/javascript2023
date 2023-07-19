@@ -160,3 +160,38 @@ let pass = "qwerty@";
 if (pass.length > 5 && pass.includes("@")) {
   console.log("password is strong");
 }
+let ag = 18;
+let weigh = 50;
+let raslt = age > 18 ? (weigh > 50 ? "qualifed" : "fail") : "weigth issue";
+console.log(raslt);
+//function
+function myfunction() {
+  console.log("my function call");
+}
+myfunction();
+myfunction();
+// let fun = function () {
+//   console.logI("Ananomus function");
+// };
+//function return
+console.log(Math);
+//forin loop use in object
+let car = {
+  model: 2022,
+  color: "Black",
+  company: "toyata",
+};
+
+console.log(car);
+for (let Key in car) {
+  console.log(Key);
+}
+//dom document object model
+let res = document.querySelectorALL("p");
+console.log(res);
+let res1 = document.querySelector(".first");
+console.log(res1);
+let res2 = document.querySelector("#second");
+console.log(res2);
+let res4 = document.getElementsByTagName("p");
+console.log(res4);

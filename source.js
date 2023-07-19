@@ -98,3 +98,54 @@ let str2 = "mullah";
 console.log(str1.concat(str2));
 console.log(str1.length);
 console.log(aray.length);
+//loop control flow
+for (let i = 0; i <= 5; i++) {
+  console.log(i);
+}
+
+let nu = 2;
+for (let i = 0; i <= 5; i++) {
+  console.log("multiple", nu, "*", i, "=", nu * i);
+}
+
+let dish = ["chat", "baryani", "samosa", "qurma"];
+for (let i = 0; i < dish.length; i++) {
+  console.log(dish[i]);
+}
+
+const arr = [
+  [12, 45, 75],
+  [54, 45, 2],
+  [23, 54, 75, 2],
+];
+
+const max = Math.max(...[].concat(...arr));
+
+const min = Math.min(...[].concat(...arr));
+
+console.log(max);
+
+console.log(min);
+let i = 0;
+while (i < 5) {
+  console.log(i);
+  i++;
+}
+
+let j = 0;
+do {
+  console.log(j);
+  j++;
+} while (j <= 0);
+
+//condition statment
+
+let age=20;
+if(age>20)
+{
+    console.log("you are eligible")
+}
+else
+{
+    console.log('you are not eligible')
+}

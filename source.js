@@ -187,11 +187,31 @@ for (let Key in car) {
   console.log(Key);
 }
 //dom document object model
-let res = document.querySelectorALL("p");
-console.log(res);
-let res1 = document.querySelector(".first");
-console.log(res1);
-let res2 = document.querySelector("#second");
-console.log(res2);
-let res4 = document.getElementsByTagName("p");
-console.log(res4);
+// let res = document.querySelectorALL("p");
+// console.log(res);
+// let res1 = document.querySelector(".first");
+// console.log(res1);
+// let res2 = document.querySelector("#second");
+// console.log(res2);
+// let res4 = document.getElementsByTagName("p");
+// console.log(res4);
+//array method
+let a4 = ["a", "b", "c"];
+console.log(a4);
+console.log(a4.reverse());
+let nums = [1, 2, 3];
+console.log(nums.concat(a4));
+console.log(a4.join("-"));
+let a6 = [1, 2, 3, 5, 6, 7, 8];
+console.log(a6);
+console.log(a6.slice(2, 5));
+let nums1 = [2, 3, 4, 5, 6];
+console.log(nums1);
+console.log(nums1.splice(1, 1, 1));
+
+let sal = [1000, 2000, 3000, 4000, 5000, 600];
+console.log(sal);
+let newsal = sal.map((salary) => {
+  let bouns = salary / 2;
+});
+console.log(newsal);
